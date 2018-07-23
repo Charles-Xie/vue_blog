@@ -1,5 +1,7 @@
 # vue_blog
 
+A blog system developed with vue.js, currently only front-end, and still in progress.
+
 ## Project setup
 ```
 npm install
@@ -19,4 +21,3 @@ npm run build
 ```
 npm run lint
 ```
-# vue_blog
