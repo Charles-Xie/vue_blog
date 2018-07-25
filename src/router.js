@@ -14,6 +14,6 @@ export default new Router({
     {path: '/', redirect: '/article'},
     {path: '/about', components: {default: About, sidebar: Sidebar}},
     {path: '/article', components: {default: Articles, sidebar: Sidebar}},
-    {path: '/article/:id', components: {default: ArticleDetail, sidebar: Sidebar}},
+    {path: '/article/:id', name: 'articleDetail', components: {default: ArticleDetail, sidebar: Sidebar}, props: {default: true, sidebar: false}},
   ]
 })
